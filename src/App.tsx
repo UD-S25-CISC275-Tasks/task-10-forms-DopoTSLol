@@ -10,6 +10,7 @@ import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+
 import { CheckAnswer } from "./form-components/CheckAnswer";
 import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
@@ -45,6 +46,8 @@ function App(): React.JSX.Element {
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
+            <hr />
+            <DoubleHalf></DoubleHalf>
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
